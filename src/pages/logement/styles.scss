@@ -1,0 +1,121 @@
+.logementContainer {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+	margin: 0px 100px 0px 100px;
+
+    @media all and (max-width: 769px) {
+        margin: 0px 20px 0px 20px;
+	}
+}
+
+.hostInfo {
+	display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+	justify-content: space-between;
+
+    width: 100%;
+
+	@media all and (max-width: 769px) {
+		flex-direction: column;
+        align-items: stretch;
+
+	}
+}
+
+.titleAndTags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        margin: 2% 0;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+    
+
+        @media all and (max-width: 769px) {
+            font-size: 18px;
+        }
+    }
+
+    h3 {
+        margin: 2% 0;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+
+        @media all and (max-width: 769px) {
+            font-size: 14px;   
+        }
+    }
+}
+
+.title-container {
+	display: flex;
+	flex-direction: column;
+	color: #ff6060;
+
+    H1{
+        margin:0px;
+    }
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.rateAndHost {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+
+	@media all and (max-width: 769px) {
+		flex-direction: row-reverse;
+	    justify-content: space-between;
+	}
+}
+
+.rate-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.collapseContainer {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+	width: 100%;
+    gap: 6%;
+    padding-top: 25px;
+	size: 550px;
+   
+    
+    H2{
+        font-size: 18px;
+    }
+
+    @media all and (max-width: 769px) {
+        font-size: 13px;
+        flex-direction: column;
+        padding-top: 0;
+
+    }
+}
+
+.equipementList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

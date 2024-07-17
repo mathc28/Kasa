@@ -1,0 +1,51 @@
+.host {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	width: 100%;
+}
+
+.hostName {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+	width: 63px;
+	height: 66px;
+
+	text-align: right;
+	font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+	color: #ff6060;
+
+	@media all and (max-width: 769px) {
+		font-size: 12px;
+	}
+}
+
+.hostPicture {
+	display: flex;
+
+	width: 64px;
+	height: 64px;
+
+	margin-left: 10px;
+	border-radius: 50%;
+	background: #c4c4c4;
+
+	@media all and (max-width: 769px) {
+		width: 32px;
+		height: 32px;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		
+		border-radius: 50%;
+		object-fit: cover;
+	}
+}
+

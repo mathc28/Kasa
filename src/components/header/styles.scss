@@ -1,0 +1,56 @@
+.header {
+    padding: 45px 100px 0px 100px;
+    width: 100%;
+  
+    @media all and (max-width: 769px) {
+        padding: 20px 20px 0px 20px;
+    }
+
+} 
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.logoKasa {
+    height: 68px;
+    width: 100%;
+
+    @media all and (max-width: 769px) {
+      width: 145px;
+      height: 46px;
+    }
+}
+
+.navFlex {
+  display: flex;
+  gap: 35px;
+
+  .active {
+    border-bottom: 1px solid #FF6060;
+  }
+}
+  
+.navLink {
+  display: flex;
+  
+  color: #FF6060;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: right;
+
+  font-size: 24px;
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 34.224px */
+ 
+
+  @media all and (max-width: 767.98px) {
+    font-size: 12px;
+  }
+}
+

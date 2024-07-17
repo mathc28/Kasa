@@ -1,0 +1,48 @@
+.footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+width: 100%;
+height: 209px;
+
+background: black;
+}
+
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 66px 0px 29px 0px;
+    gap: 28.556px;
+    color: white;
+}
+
+.footer-logo{
+    width: 122px;
+    height: 40px;
+
+}
+
+.footer-txt{
+    display: flex;
+    flex-direction: column;
+
+    width: 513px;
+    height: 46px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 34.224px */
+    margin:0;
+
+    @media all and (max-width: 767.98px) {
+        font-size: 12px;
+    }
+}
