@@ -68,7 +68,7 @@ function Logement (){
 				</div>
 			</section>
       <div className="collapseContainer">
-					<Collapse label="Fiabilité">
+					<Collapse label="Description">
 					  <p> {logement.description} </p>
 					</Collapse>
           <Collapse label="Équipements">
