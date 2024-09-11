@@ -59,21 +59,25 @@ function Logement (){
             </div>
 					</div>
 					<div className="rateAndHost">
-						<div> <Host hostName={logement.host.name} hostPicture={logement.host.picture}/> </div>
-						<div className="rate-container"> <Rate score={logement.rating}/> </div>
-					</div>
+						<div> 
+              <Host hostName={logement.host.name} hostPicture={logement.host.picture}/> 
+            </div>
+						<div className="rate-container"> 
+              <Rate score={logement.rating}/> 
+          </div>
+				</div>
 			</section>
       <div className="collapseContainer">
 					<Collapse label="Fiabilité">
 					  <p> {logement.description} </p>
 					</Collapse>
           <Collapse label="Équipements">
-            <ul>
-						  <li className="equipementList"> 
-                {logement.equipments} 
-              </li>
+            <ul className="equipements-list">
+              {logement.equipments.map((equipment, index) => (
+              <li key={index}>{equipment}</li>
+              ))}
             </ul>
-					</Collapse>
+          </Collapse>
 				</div>
     </div>
     )
