@@ -6,16 +6,13 @@ import './styles.scss'
  */
 function Card({image, title}) {
 
-
   return (
-
-      <div className="card">
-        <img src={image} alt="image du logement" className="cardImg" />
-        <div className="cardLayer">
-			    <p className="cardTitle">{title}</p>
-			  </div>
-      </div>
-    
+    <div className="card">
+      <img src={image} alt="image du logement" className="cardImg" />
+      <div className="cardLayer">
+			  <p className="cardTitle">{title}</p>
+			</div>
+    </div>
   );
 }
 

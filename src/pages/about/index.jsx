@@ -4,15 +4,13 @@ import Bannerabout from "../../components/banner/about-banner.jpg";
 import Collapsible from "../../components/collapsible";
 import './styles.scss'
 
-
-
 const About = () => {
   return <div>
     <Banner image={Bannerabout}/>
     <div className="collapses">
       <Collapsible label="Fiabilité">
         <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont
-          régulièrement vérifiées par nos équipes.</p>
+        régulièrement vérifiées par nos équipes.</p>
       </Collapsible>
       <Collapsible label="Respect">
         <p>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de

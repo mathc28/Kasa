@@ -10,14 +10,14 @@ function Header() {
       <div className="navbar">
         <h1>
           <a href="/">
-          <img src={Logoheader} href="/" className="logoKasa" alt="logo de kasa" />
+            <img src={Logoheader} href="/" className="logoKasa" alt="logo de kasa" />
           </a>
         </h1>
         <div className="navFlex">
-          <NavLink to="/" activeclassname="active" className="navLink" exact="true">
+          <NavLink to="/"  className="navLink" >
             Accueil
           </NavLink>
-          <NavLink to="/propos" activeclassname="active" className="navLink" exact="true">
+          <NavLink to="/propos" className="navLink">
             A propos
           </NavLink>
         </div>

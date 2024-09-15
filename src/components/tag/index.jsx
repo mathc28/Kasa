@@ -1,13 +1,13 @@
 import './styles.scss'
 
 /**
- * on créer une fonction pour afficher les tags de la base de données 
+ * Extract the tags in the database and display each of them  
  */
 function Tag(props) {
-	return (
-		<div>
-			<span className="tagText">{props.tag}</span>
-		</div>
-	);
+  return (
+	<div>
+	  <span className="tagText">{props.tag}</span>
+	</div>
+  );
 }
 export default Tag
