@@ -19,7 +19,7 @@ const Collapsible = (props) => {
                 <img src={arrow} alt="collapseArrow" className={isOpened ? "arrow anim" : "arrow"}/>
             </div>
             {isOpened && (
-            <div className="collapseText">{props.children}</div>
+                <div className="collapseText">{props.children}</div>
             )}
         </div>
     );

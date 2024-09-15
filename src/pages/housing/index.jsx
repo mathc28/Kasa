@@ -43,7 +43,7 @@ function Logement (){
     return <ErrorPage />
   }
     
-    return ( 
+  return ( 
     <div className="logementContainer">
       <Carrousel slides={logement.pictures} />
       <section className="hostInfo">
@@ -54,7 +54,7 @@ function Logement (){
 						</div>
             <div className="tags-container">
               {logement.tags.map((tag, index) => (
-              <Tag key={index} tag={tag} />
+                <Tag key={index} tag={tag} />
               ))}
             </div>
 					</div>

@@ -2,12 +2,12 @@
 import { Routes, Route } from "react-router-dom";
 
 import About from "../pages/about";
-import Accueil from "../pages/accueil";
-import Logement from "../pages/logement";
+import Accueil from "../pages/homepage";
+import Logement from "../pages/housing";
 import Error from "../pages/error";
 
 /**
- * Configuration des routes de l'application
+ * Configuration des différentes routes de l'application
  */
 function Router (){
     return <Routes>

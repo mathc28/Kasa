@@ -5,6 +5,10 @@
    display: flex;
    justify-content: center;
    padding: 200px;
+
+   @media all and (max-width: 769px){
+		padding: 200px 0px 200px 0px;
+   }
 }
 
 .spinner {
@@ -35,3 +39,4 @@
       transform: rotate(1turn);
    }
 }
+
