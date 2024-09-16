@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 import Banner from "../../components/banner";
 import Card from "../../components/cards/cards";
 import { Link } from "react-router-dom";
-import Bannerhome from "../../components/banner/home-banner.jpg"
+import Bannerhome from "../../assets/images/home-banner.jpg"
 
 import './style.scss'
 

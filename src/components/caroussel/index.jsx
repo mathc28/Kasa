@@ -1,6 +1,6 @@
 import { useState } from "react";
-import arrowleft from "./leftarrow.svg";
-import arrowright from "./rightarrow.svg";
+import arrowleft from "../../assets/images/leftarrow.svg"
+import arrowright from "../../assets/images/rightarrow.svg";
 import './styles.scss';
 
 export default function Carrousel({ slides }) {

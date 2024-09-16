@@ -1,5 +1,5 @@
-import emptyStar from "./emptystar.svg";
-import fullStar from "./fullstar.svg";
+import emptyStar from "../../assets/images/emptystar.svg";
+import fullStar from "../../assets/images/fullstar.svg";
 
 import './styles.scss';
 

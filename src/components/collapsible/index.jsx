@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState,} from 'react'
 import './styles.scss'
-import arrow from "./arrow_2back_ios-24px 2.svg"
+import arrow from "../../assets/images/arrow_2back_ios-24px 2.svg"
 
 const Collapsible = (props) => {
   const [isOpened, setIsOpened] = useState(false);

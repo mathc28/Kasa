@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/banner/index";
-import Bannerabout from "../../components/banner/about-banner.jpg";
+import Bannerabout from "../../assets/images/about-banner.jpg";
 import Collapsible from "../../components/collapsible";
 import './styles.scss'
 

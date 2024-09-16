@@ -6,7 +6,7 @@ import Chargement from '../../components/loader'
 import Host from '../../components/host'
 import Tag from '../../components/tag'
 import Rate from '../../components/rate'
-import Collapse from '../../components/collapsible'
+import Collapsible from '../../components/collapsible'
 import './styles.scss'
 
 
@@ -33,7 +33,7 @@ function Logement (){
               setIsLoading(false)
             }, 2000)
         })
-  }, [])
+  }, [id])
 
   if(isLoading){
     return <Chargement />
@@ -68,16 +68,16 @@ function Logement (){
 				</div>
 			</section>
       <div className="collapseContainer">
-				<Collapse label="Description">
+				<Collapsible label="Description">
 				  <p> {logement.description} </p>
-				</Collapse>
-        <Collapse label="Équipements">
-          <ul className="equipements-list">
+				</Collapsible>
+        <Collapsible label="equipements">
+          <ul className="equipementslist">
             {logement.equipments.map((equipment, index) => (
             <li key={index}>{equipment}</li>
             ))}
           </ul>
-        </Collapse>
+        </Collapsible>
 			</div>
     </div>
   )
